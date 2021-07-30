@@ -50,7 +50,7 @@ namespace _3xPlus1
                     (bool success, List<decimal> returnedData) = CalculateNumber(startNumber);
                     if (success)
                     {
-                        return (true, data);
+                        return (true, returnedData);
                     }
                     else
                     {

@@ -34,7 +34,7 @@ namespace _3xPlus1
             {
                 cT = CalculationType.RANGE;
             }
-            int limit = Convert.ToInt32(nudLimit.Value);
+            decimal limit = nudLimit.Value;
             (bool success, List<decimal> data) = DoTheCalculation(nudStart.Value, nudEnd.Value, cT, limit);
             if (success)
             {

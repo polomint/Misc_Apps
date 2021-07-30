@@ -81,7 +81,7 @@ namespace _3xPlus1
             this.nudStart.TabIndex = 2;
             this.nudStart.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nudStart.Value = new decimal(new int[] {
-            1,
+            34,
             0,
             0,
             0});
@@ -188,7 +188,7 @@ namespace _3xPlus1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(151, 653);
+            this.ClientSize = new System.Drawing.Size(1025, 653);
             this.Controls.Add(this.nudLimit);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lbData);
